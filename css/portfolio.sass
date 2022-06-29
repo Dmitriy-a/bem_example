@@ -1,0 +1,96 @@
+.portfolio
+    .container
+        padding: 140px 0 0 0
+    &__head
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__btn
+        font-family: 'Open Sans'
+        font-style: normal
+        font-weight: 600
+        font-size: 12px
+        line-height: 24px
+        letter-spacing: 2px
+        color: #333333
+        padding-bottom: 7px
+        border: none
+        background: #ffff
+    &__btn:hover
+        cursor: pointer
+        padding-bottom: 6px
+        border-bottom: 1px solid #FCBB08
+    &__items
+        display: flex
+        flex-wrap: wrap
+        gap: 22px
+        margin-top: 105px
+        height: 912px
+        &-part
+            display: flex
+            flex-direction: column
+            gap: 22px
+            &:nth-child(1)
+                .portfolio__item-img:first-child
+                    flex-grow: 2
+                .portfolio__item-img:last-child 
+                    flex-grow: 1
+            &:nth-child(2)
+                .portfolio__item-img:first-child
+                    max-width: 319px
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED
+                    border: 12px solid rgba(255, 255, 255, 0.147164)   
+            &:nth-child(3)
+                .portfolio__item-img:first-child
+                    flex-grow: 1
+                .portfolio__item-img:last-child 
+                    flex-grow: 2
+            &:nth-child(4)
+                .portfolio__item-img:first-child
+                    flex-grow: 0
+                .portfolio__item-img:last-child 
+                    flex-grow: 2
+    &__item
+        &-img
+            background: #EDEDED
+            width: 343px
+            height: 288px
+        &-title
+            font-family: 'Open Sans'
+            font-style: normal
+            font-weight: 600
+            font-size: 14px
+            line-height: 14px
+            align-items: center
+            text-align: center
+            letter-spacing: 1.4px
+            color: #FFFFFF
+        &-descr
+            font-family: 'Open Sans'
+            font-style: normal
+            font-weight: 300
+            font-size: 12px
+            line-height: 16px
+            text-align: center
+            letter-spacing: 1px
+            color: #FFFFFF
+    &__btn-all
+        width: 100%
+        margin-top: 75px
+        background: #F6F8FA
+        height: 100px
+        outline: none
+        border: none
+        font-family: 'Montserrat'
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        line-height: 17px
+    &__btn-all:hover
+        cursor: pointer
+        
+
+            
